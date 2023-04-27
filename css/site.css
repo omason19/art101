@@ -54,3 +54,7 @@ p {
   color: azure;
   text-decoration: none;
 }
+
+footer {
+  display: block;
+}
