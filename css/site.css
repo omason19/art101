@@ -41,8 +41,6 @@ p {
 
 #links{
   color: azure;
-  margin-top: 10px;
-  margin-bottom: 10px;
   display: block;
 }
 
@@ -50,8 +48,8 @@ p {
   display: inline;
   padding: 10px;
   background-color: purple;
-  float: left;
-  
+  float: right;
+  margin:1px
 }
 
 
