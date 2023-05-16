@@ -1,7 +1,7 @@
 /*
 * Created by: Oliver Mason
-* Lab 9 Javascript for the web
-* May 11, 2023
+* Lab 10 Javascript Events and Forms
+* May 16, 2023
 */
 
 var outputEl = document.getElementById("output");
