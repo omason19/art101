@@ -4,15 +4,17 @@
 * May 16, 2023
 */
 
-var outputEl = document.getElementById("output");
+function inputF(){
+    var userName = document.getElementById(userName);
+    console.log("User Name: ", userName);
+    var nameArray = userName.split("");
+    console.log("Name Array:", nameArray);
+    var nameArraySort = nameArray.sort();
+    console.log("Sorted Array", nameArraySort);
+    var nameSorted = nameArraySort.join();
+    console.log("Reorganized User Name", nameSorted);
+    return nameSorted;
+}
 
-var new1El = document.createElement("p");
-new1El.innerHTML = "something new";
-
-var new2El = document.createElement("p");
-new2El.innerHTML = "something else";
-outputEl.appendChild(new1El);
-outputEl.appendChild(new2El);
-
-document.getElementById("header").style.color = "blue";
-document.getElementById("header2").style.color = "red";
+document.writeln("Your name has been fixed:",
+    inputF(), "</br>");
