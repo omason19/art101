@@ -1,7 +1,7 @@
 /*
 * Created by: Oliver Mason
 * Lab 10 Javascript Events and Forms
-* May 11, 2023
+* May 16, 2023
 */
 
 function inputF(userName){
