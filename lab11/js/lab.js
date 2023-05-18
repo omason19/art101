@@ -2,5 +2,11 @@
 // Author: Oliver Mason
 // Date: 5/18/23
 
-var button = 
+challenge = $("#challenge");
 
+
+
+challenge.append(button)
+
+
+$('<button>').text('Button');
