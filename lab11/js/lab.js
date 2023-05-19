@@ -2,11 +2,8 @@
 // Author: Oliver Mason
 // Date: 5/18/23
 
-challenge = $("#challenge");
+$(".minor-section").append("<button class='btn btn-secondary change'>button</button>");
 
-
-
-challenge.append(button)
-
-
-$('<button>').text('Button');
+$(".change").click(function(){
+    $(this).parent().toggleClass("special")
+})
