@@ -44,20 +44,23 @@ p {
   display: block;
 }
 
-#links ul li {
-  display: inline;
-  padding: 10px;
-  background-color: purple;
-  float: left;
-  margin:1px
-}
 
 
-#links ul li a{
+
+#links a{
   color: azure;
   text-decoration: none;
+  font-size: 17px;
+  padding: 10px;
 }
 
 footer {
   display: block;
+}
+
+#links {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto auto auto;
+  
+
 }
